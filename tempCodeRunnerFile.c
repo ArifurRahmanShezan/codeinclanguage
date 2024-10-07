@@ -1,1 +1,3 @@
-int i=0
+ // for(int j=1;j<=n-i;j++){
+        //     printf(" ");
+        // }
