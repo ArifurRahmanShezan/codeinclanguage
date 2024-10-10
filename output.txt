@@ -1,2 +1,1 @@
-Maximum 23
-Minimum 4
+1 1
