@@ -12,3 +12,17 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]<min){
             min=arr[i];
+        }
+    }
+    for(int i=0;i<n;i++){
+        if (arr[i]==min){
+            min_count++;
+        }
+    }
+    if(min_count%2!=0){
+        printf("Lucky");
+    }
+    else{
+        printf("Unlucky");
+    }
+}

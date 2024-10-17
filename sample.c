@@ -2,17 +2,17 @@
 
 int main()
 {
-    int x = 0;
-    if (x == 1)
-    {
-        if (x >= 0)
-        {
-            printf("true\n");
-        }
-        else
-        {
-            printf("false\n");
-        }
-    }
-    return 0;
+   int n;
+   scanf("%d",&n);
+   int arr[n];
+  
+   for(int i=0;i<n;i++){
+    scanf("%d",&arr[i]);
+   }
+   for(int i=0;i<n;i++){
+   if(arr[i]<=10){
+    printf("A[%d] = %d\n",i,arr[i]);
+   }
+   }
+   return 0;
 }
