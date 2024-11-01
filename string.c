@@ -9,12 +9,10 @@ int main(){
     int lenb=strlen(b);
     printf("%d %d\n",lena,lenb);
     printf("%s%s\n",&a,&b);
-    for(int i=0,j=0;i<lena;){
         int temp=a[0];
         a[0]=b[0];
         b[0]=temp;
         printf("%s %s\n",&a,&b);
-        break;
-    }
+
 
 }

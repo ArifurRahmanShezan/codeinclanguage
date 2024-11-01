@@ -9,7 +9,6 @@ int main(){
     if(cmp<=0){
         printf("%s",a);
     }
-    
     else{
         printf("%s",b);
     }

@@ -37,7 +37,7 @@ int main(){
         }
     }
     for(int i=1;i<=m;i++){
-        printf("%d %d\n",i,count[i]);
+        printf("%d\n",count[i]);
     }
 
 }
